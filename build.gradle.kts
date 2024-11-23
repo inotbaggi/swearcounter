@@ -18,7 +18,7 @@ repositories {
 dependencies {
     implementation(compose.desktop.currentOs)
     implementation("com.github.kwhat:jnativehook:2.2.2")
-
+    implementation("net.java.dev.jna:jna:5.13.0")
 }
 
 compose.desktop {
